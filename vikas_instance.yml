@@ -47,7 +47,7 @@ Resources:
     Properties:
       SubnetId: 'subnet-69a21d22'
       InstanceType: 't2.micro'
-      SecurityGroupIds: 'sg-ea38f99b'
+      SecurityGroups: 'sg-ea38f99b'
       KeyName: 'cf'
       ImageId: 'ami-0a85857bfc5345c38'
 
@@ -56,6 +56,6 @@ Resources:
     Properties:
       SubnetId: 'subnet-d1d24fa8'
       InstanceType: 't2.micro'
-      SecurityGroupIds: 'sg-ea38f99b'
+      SecurityGroups: 'sg-ea38f99b'
       KeyName: 'cf'
       ImageId: 'ami-0a85857bfc5345c38'
